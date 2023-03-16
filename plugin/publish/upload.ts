@@ -11,7 +11,7 @@ import {
 	MetadataExtractor,
 	RepoFrontmatter,
 } from "../settings/interface";
-import { FilesManagement } from "./filesManagement";
+import { FilesManagement } from "./files";
 import { Octokit } from "@octokit/core";
 import { Base64 } from "js-base64";
 import { deleteFromGithub } from "./delete";

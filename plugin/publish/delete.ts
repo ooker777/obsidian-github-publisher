@@ -6,7 +6,7 @@ import {
 	GithubRepo,
 	RepoFrontmatter,
 } from "../settings/interface";
-import { FilesManagement } from "./filesManagement";
+import { FilesManagement } from "./files";
 import { Base64 } from "js-base64";
 import {noticeLog, trimObject } from "../src/utils";
 import {isAttachment} from "../src/data_validation_test";
